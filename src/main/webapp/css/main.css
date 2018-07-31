@@ -1,0 +1,8 @@
+.auth-tab {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#error-field {
+    color: red;
+}
