@@ -21,16 +21,9 @@ III Инструменты для сборки проекта
 
 В проекте используются Gradle сборщик проектов.
 Для того, чтобы собрать и развернуть проект, необходимо:
-1. установить gradle, если еще не установлен.
-    1) перейти по ссылке https://services.gradle.org/distributions/gradle-4.9-bin.zip
-    чтобы скачать архив с gradle
-    2) распаковать в необходимую директорию
-    3) установить в переменную окружения PATH(Linux) или Path(Win) путь <gradle-path>/bin
-2. перейти в корень проекта
-3. выполнить из терминала gradle wrapper
-4. затем выполнить ./gradlew clean build(Linux) или gradlew.bat clean build(Win)
-5. и затем выполнить java -jar build/libs/social_networks_auth-1.0.0.jar
-6. в браузере открыть http://localhost:9090/
+1. выполнить  из терминала ./gradlew clean build(Linux) или gradlew.bat clean build(Win)
+2. и затем выполнить java -jar build/libs/social_networks_auth-1.0.0.jar
+3. в браузере открыть http://localhost:9090/
 
 IV Работа с приложением
 
