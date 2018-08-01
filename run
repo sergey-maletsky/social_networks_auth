@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./gradlew clean build && java -jar build/libs/social_networks_auth-1.0.0.jar
